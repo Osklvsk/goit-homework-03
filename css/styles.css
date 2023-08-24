@@ -22,7 +22,6 @@ ul{
  }
 .view{
     display: flex;
-    align-items: center;
 }
 
 .navigation-list{
