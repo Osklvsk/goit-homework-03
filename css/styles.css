@@ -26,7 +26,6 @@ ul{
     display: block;
 }
 .container{
-   display: flex;
    width: 1158px;
    margin: 0 auto;
    padding: 0 15px;
@@ -204,7 +203,6 @@ background-color: #404BBF;
 }
 .studio-foot{
     color: #f4f4fd;
-    display: inline-block;
 }
 .color-foot{
     background-color: #2e2f42;
