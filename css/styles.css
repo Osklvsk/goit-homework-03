@@ -3,6 +3,10 @@ body{
     color: #434455;
     background-color: #ffffff;
 }
+h1,h2,h3,h4,h5,h6,p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
 ul{
     list-style-type: none;
     font-style: normal;
@@ -13,6 +17,7 @@ ul{
 }
 .header{
     border-bottom: 1px solid #e7e9fc;
+
 }
 .container{
     width: 1158px;
@@ -20,9 +25,12 @@ ul{
     padding: 0 15px;
  
  }
-.view{
+ .header-container{
     display: flex;
-}
+    align-items: center;
+    justify-content: space-between;
+   
+ }
 
 .navigation-list{
     display: flex;
@@ -84,6 +92,7 @@ ul{
     color: #434455;
     display: flex;
     gap: 40px;
+    text-decoration: none;
     
 }
 .contacts:hover, :focus{
@@ -101,6 +110,7 @@ ul{
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
+    margin: 0 auto;
 }
 .btn{
     font-family: "Roboto", sans-serif;
@@ -116,6 +126,7 @@ ul{
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin: 0 auto;
 }
 .content{
     padding: 120px 0;
@@ -157,12 +168,14 @@ background-color: #404BBF;
     color: #2e2f42;
     margin-bottom: 8px;
     text-align: center;
+    
 }
 .text-p{
     line-height:1.5;
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
+  
 }
 .team{
     background-color: #f4f4fd;
@@ -209,6 +222,17 @@ background-color: #404BBF;
 .studio-foot{
     color: #f4f4fd;
 }
+.logo-foot{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
+}
 .color-foot{
     background-color: #2e2f42;
     padding: 100px 0;
@@ -217,4 +241,5 @@ background-color: #404BBF;
     line-height: 1.5;
     color: #f4f4fd;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
